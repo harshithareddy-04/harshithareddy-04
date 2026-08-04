@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="360" viewBox="0 0 460 360" role="img" aria-label="GitHub stats">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185"/><stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb7185"/><stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    <![CDATA[
+    .row { opacity: 0; animation: slideIn 0.55s ease forwards; }
+    @keyframes slideIn { from { opacity:0; transform: translateX(-16px); } to { opacity:1; transform:none; } }
+    .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1s ease forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .rank-ring { stroke-dasharray: 220; stroke-dashoffset: 220; animation: draw 1.6s ease forwards; animation-delay: 0.3s; }
+    @keyframes draw { to { stroke-dashoffset: 55; } }
+    .rank-pulse { animation: pulse 2.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
+    ]]>
+  </style>
+  <rect width="460" height="360" rx="18" fill="#120815" stroke="rgba(244,114,182,0.35)" stroke-width="1.4"/>
+  <text x="36" y="40" font-family="Segoe UI,Ubuntu,sans-serif" font-size="18" font-weight="800" fill="#fce7f3">Harshitha&apos;s Stats</text>
+  <text x="36" y="60" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" fill="#c4b5fd">@harshithareddy-04 · local card</text>
+
+  <g transform="translate(360,70)">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="rgba(244,114,182,0.15)" stroke-width="7"/>
+    <circle class="rank-ring" cx="0" cy="0" r="38" fill="none" stroke="url(#ring)" stroke-width="7" stroke-linecap="round" transform="rotate(-90)"/>
+    <text class="rank-pulse" x="0" y="6" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="16" font-weight="800" fill="#f9a8d4">A+</text>
+  </g>
+  
+    <g class="row" style="animation-delay:0.40s">
+      <text x="36" y="120" font-family="Segoe UI,Ubuntu,sans-serif" font-size="13" fill="#e9d5ff">Total Stars</text>
+      <text x="420" y="120" text-anchor="end" font-family="Consolas,Courier New,monospace" font-size="13" fill="#f9a8d4">0</text>
+      <rect x="36" y="128" width="280" height="6" rx="3" fill="rgba(244,114,182,0.12)"/>
+      <rect class="bar" x="36" y="128" width="42" height="6" rx="3" fill="url(#g)" style="animation-delay:0.60s"/>
+    </g>
+    <g class="row" style="animation-delay:0.52s">
+      <text x="36" y="162" font-family="Segoe UI,Ubuntu,sans-serif" font-size="13" fill="#e9d5ff">Commits (YTD)</text>
+      <text x="420" y="162" text-anchor="end" font-family="Consolas,Courier New,monospace" font-size="13" fill="#f9a8d4">—</text>
+      <rect x="36" y="170" width="280" height="6" rx="3" fill="rgba(244,114,182,0.12)"/>
+      <rect class="bar" x="36" y="170" width="126" height="6" rx="3" fill="url(#g)" style="animation-delay:0.72s"/>
+    </g>
+    <g class="row" style="animation-delay:0.64s">
+      <text x="36" y="204" font-family="Segoe UI,Ubuntu,sans-serif" font-size="13" fill="#e9d5ff">PRs Merged</text>
+      <text x="420" y="204" text-anchor="end" font-family="Consolas,Courier New,monospace" font-size="13" fill="#f9a8d4">—</text>
+      <rect x="36" y="212" width="280" height="6" rx="3" fill="rgba(244,114,182,0.12)"/>
+      <rect class="bar" x="36" y="212" width="98" height="6" rx="3" fill="url(#g)" style="animation-delay:0.84s"/>
+    </g>
+    <g class="row" style="animation-delay:0.76s">
+      <text x="36" y="246" font-family="Segoe UI,Ubuntu,sans-serif" font-size="13" fill="#e9d5ff">Issues Closed</text>
+      <text x="420" y="246" text-anchor="end" font-family="Consolas,Courier New,monospace" font-size="13" fill="#f9a8d4">—</text>
+      <rect x="36" y="254" width="280" height="6" rx="3" fill="rgba(244,114,182,0.12)"/>
+      <rect class="bar" x="36" y="254" width="70" height="6" rx="3" fill="url(#g)" style="animation-delay:0.96s"/>
+    </g>
+    <g class="row" style="animation-delay:0.88s">
+      <text x="36" y="288" font-family="Segoe UI,Ubuntu,sans-serif" font-size="13" fill="#e9d5ff">Contributed to</text>
+      <text x="420" y="288" text-anchor="end" font-family="Consolas,Courier New,monospace" font-size="13" fill="#f9a8d4">1</text>
+      <rect x="36" y="296" width="280" height="6" rx="3" fill="rgba(244,114,182,0.12)"/>
+      <rect class="bar" x="36" y="296" width="154" height="6" rx="3" fill="url(#g)" style="animation-delay:1.08s"/>
+    </g>
+</svg>

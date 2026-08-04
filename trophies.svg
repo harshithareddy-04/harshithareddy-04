@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" viewBox="0 0 460 340" role="img" aria-label="Trophies">
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    <![CDATA[
+    .trophy { opacity:0; transform-box:fill-box; transform-origin:center; animation: pop 0.55s cubic-bezier(.2,.9,.3,1.4) forwards; }
+    @keyframes pop { from { opacity:0; transform: scale(0.6); } to { opacity:1; transform: scale(1); } }
+    .tshine { animation: sweep 3s ease-in-out infinite; }
+    @keyframes sweep { from { transform: translateX(0); } to { transform: translateX(140px); } }
+    ]]>
+  </style>
+  <rect width="460" height="340" rx="18" fill="#120815" stroke="rgba(251,113,133,0.35)" stroke-width="1.4"/>
+  <text x="30" y="40" font-family="Segoe UI,Ubuntu,sans-serif" font-size="18" font-weight="800" fill="#fce7f3">Trophies</text>
+  
+    <g class="trophy" style="animation-delay:0.25s" transform="translate(30,70)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#c0c0c3" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">🥈</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#c0c0c3">MultiLanguage</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+    <g class="trophy" style="animation-delay:0.37s" transform="translate(170,70)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#cd7f32" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">🥉</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#cd7f32">Experience</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+    <g class="trophy" style="animation-delay:0.49s" transform="translate(310,70)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#fbbf24" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">🏅</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#fbbf24">Commits</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+    <g class="trophy" style="animation-delay:0.61s" transform="translate(30,200)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#f472b6" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">🎖️</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#f472b6">PullRequest</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+    <g class="trophy" style="animation-delay:0.73s" transform="translate(170,200)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#a855f7" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">✨</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#a855f7">Issues</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+    <g class="trophy" style="animation-delay:0.85s" transform="translate(310,200)">
+      <rect width="120" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="#fb7185" stroke-width="1.3"/>
+      <text x="60" y="48" text-anchor="middle" font-size="28">⭐</text>
+      <text x="60" y="78" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="700" fill="#fb7185">Repositories</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#c4b5fd">Growing</text>
+      <rect class="tshine" x="-20" y="0" width="40" height="110" fill="url(#shine)"/>
+    </g>
+</svg>
