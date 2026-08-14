@@ -2,18 +2,19 @@
 
 <!-- Dark / Light banner auto-switch -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1"/>
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1"/>
-  <img src="banner.svg?v=1" alt="Harshitha — Student Developer banner" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=33"/>
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=33"/>
+  <img src="banner.svg?v=33" alt="Harshitha — Student Developer banner" width="100%"/>
 </picture>
 
 <br/>
 
-<img src="lanyard.svg?v=1" alt="Harshitha swinging ID lanyard" width="280"/>
+<img src="lanyard.svg?v=33" alt="Harshitha swinging ID lanyard" width="280"/>
 
 <br/>
 
 ### 👋 Hey, I'm **Harshitha**
+
 **Student** · Frontend-curious · `GOOD CODE MAKES ME HAPPY`
 
 `React.js` · `Next.js` · `HTML5` · `CSS3` · `Tailwind CSS`
@@ -24,7 +25,7 @@
 
 | Stats | Languages | Trophies |
 |:---:|:---:|:---:|
-| <img src="stats.svg?v=1" alt="stats" width="400"/> | <img src="langs.svg?v=1" alt="languages" width="400"/> | <img src="trophies.svg?v=1" alt="trophies" width="400"/> |
+| <img src="stats.svg?v=33" alt="stats" width="400"/> | <img src="langs.svg?v=33" alt="languages" width="400"/> | <img src="trophies.svg?v=33" alt="trophies" width="400"/> |
 
 <br/>
 
