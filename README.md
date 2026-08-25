@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="lanyard.svg?v=33" alt="Harshitha swinging ID lanyard" width="280"/>
+<img src="lanyard.svg?v=39" alt="Harshitha swinging ID lanyard" width="280"/>
 
 <br/>
 
