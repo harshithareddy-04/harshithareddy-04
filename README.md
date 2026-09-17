@@ -6,8 +6,7 @@ I'm a passionate developer working on exciting projects! Here's a bit about me:
 - 🌱 I'm always learning new technologies
 - 👯 I'm open to collaboration opportunities
 - 💬 Ask me about web development and coding
-- 📫 Reach out on GitHub or social media
-- ⚡ Fun fact: I love creating cool animations!
+- ⚡ Fun fact: I love creating cool webs!
 
 ### My Contribution Graph 🐍
 
